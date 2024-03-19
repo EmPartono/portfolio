@@ -11,8 +11,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Section for CSS -->
+    
+    
     <!-- Reference to Bootstrap stylesheet -->
-
+    <link rel="stylesheet"href="css/bootstrap.css">
+          
     <!-- Reference to our stylesheet -->
     <link rel="stylesheet" href="css/styles.css">
    
@@ -26,43 +29,61 @@
 <!-- Body section where we add content -->
 <body>
 
-    <header>  
-        <img class="photo" src="images/photo-author.jpg" width="75" height="75">  
+    <header> 
+        <div class="row justify-content-center">
+            <img class="photo" src="images/A7413486-698E-4513-A275-3316C975B852.jpg" width="150" height="150">  
+        </div>
         <h1>Em Shinta Partono</h1>   
-        <h2>Purpose-driven aspiring UX and UI Designer</h2>    
+        <h2>Purpose-driven aspiring UX &amp; UI Designer</h2>    
     </header>
 
     <div class="projects">
         <h3>My projects</h3>
+        
+        <div class="row justify-content-center">
     
-       <div class="project" style="background-image:url(images/project-design-improvements.png)">
+       <div class="project col-10 col-md-3" style="background-image:url(images/project-design-improvements.png)">
         <a href="project.html">
-            <h4>TfL journey planner design improvements</h4>
+            <h4 class="title">TfL journey planner design improvements</h4>
         </a>
+        </div>   
+            
+       <div class="project col-10 col-md-3" style="background-image:url(images/project-design-improvements.png)">
+            
         </div>
-    </div>
+            
+       <div class="project col-10 col-md-3" style="background-image:url(images/project-design-improvements.png)">
+        
+         </div>
+            
+        </div>
     
     <div class="about">
         <h3>About me</h3>
-        <p> I've been working in the Education Technology space for the past 4 years in People Experience and Learning and Development Design and recently completed a Government-backed UX/UI Design bootcamp with <a href="https://schoolofux.com"> The School of UX</a> to pivot my career towards this field.
-        </p>  
+        <div class="row justify-content-center">
+            <p class="col-10 col-md-4"> I've been working in the Education Technology space for the past 4 years in People Experience and Learning and Development Design and recently completed a Government-backed UX/UI Design bootcamp with <a href="https://schoolofux.com"> The School of UX</a> to pivot my career towards this field.
+            </p>
+        </div>
     </div>
     
     <footer>
         <h3>Get in touch</h3>
         
-        <a href="tel:+44 7935 700699">
+        <div class="row-justify-content-center">
+            <a class="col-12" href="tel:+44 7935 700699">
             +44 7935700699
-        </a>
+            </a>
         
-        <a href="mailto:emlampard@gmail.com">
+            <a class="col-12" href="mailto:emlampard@gmail.com">
             emlampard@gmail.com
-        </a>
+            </a>
         
-        <a class="btn-primary" href="portfolio.pdf">
+            <a class="btn-primary col-8 col-md-3 col-lg-2" href="portfolio.pdf">
             Download portfolio
-        </a>
+            </a>
+        </div>
     </footer>
     
 </body>
+    
 </html>

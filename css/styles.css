@@ -6,7 +6,7 @@ body {
 
 /* Section styles */
 header{
-    background-color: #4fbdd2;
+    background-color: #718782;
     padding: 25px 25px;
 }
 
@@ -38,7 +38,7 @@ h1{
 }
 
 h2{
-    color: #222222;
+    color: lightgrey;
     font-size: 1.15em;
     font-weight: 700;
     text-align: center;
@@ -87,3 +87,15 @@ h4{
 }
 
 /* Link styles */
+a{
+    color: #718782;
+    text-decoration: underline;
+}
+
+/* footer styles */
+footer{
+    background-color: lightgray;
+    padding: 50px 15px;
+    text-align: center;
+    font-weight: 700;
+}
